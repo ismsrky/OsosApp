@@ -1,0 +1,8 @@
+D:\UmutBurak\Osos\OsosApp\OsosApp.DeviceLib\bin\Debug\OsosApp.DeviceLib.dll
+D:\UmutBurak\Osos\OsosApp\OsosApp.DeviceLib\bin\Debug\OsosApp.DeviceLib.pdb
+D:\UmutBurak\Osos\OsosApp\OsosApp.DeviceLib\bin\Debug\SimpleTCP.dll
+D:\UmutBurak\Osos\OsosApp\OsosApp.DeviceLib\obj\Debug\OsosApp.DeviceLib.csproj.AssemblyReference.cache
+D:\UmutBurak\Osos\OsosApp\OsosApp.DeviceLib\obj\Debug\OsosApp.DeviceLib.csproj.CoreCompileInputs.cache
+D:\UmutBurak\Osos\OsosApp\OsosApp.DeviceLib\obj\Debug\OsosApp.DeviceLib.csproj.CopyComplete
+D:\UmutBurak\Osos\OsosApp\OsosApp.DeviceLib\obj\Debug\OsosApp.DeviceLib.dll
+D:\UmutBurak\Osos\OsosApp\OsosApp.DeviceLib\obj\Debug\OsosApp.DeviceLib.pdb

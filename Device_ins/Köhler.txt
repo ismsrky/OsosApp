@@ -1,0 +1,36 @@
+Köhler
+	
+	Handshake:
+		/?{serial_no}[0D][0A]
+	
+	Ack:
+		[06]001[0D][0A]
+	
+	[06] => ok değilse ack gönder.
+	[15] => ack bir daha gönder.
+	2 saniye içinde bir şey gelmezse tekrar handshake'e git.
+	
+	cmd-consumption energy:
+		[01]R2[02]1.8.0()[03]Y
+		[02]1.8.0({value}*kWh)[03]
+		
+	cmd-inductive energy:
+		[01]R2[02]5.8.0()[03]]
+		[02]5.8.0({value}*kVArh)[03]
+	
+	cmd-capacitive energy:
+		[01]R2[02]8.8.0()[03]P
+		[02]8.8.0({value}*kVArh)[03]
+		
+	IsProduction:
+		cmd-capacitive energy:
+			[01]R2[02]2.8.0()[03]Z
+			[02]2.8.0({value}*kWh)[03]	
+	
+	[01]B0[03]q
+	son komut geltikten sonra 1 saniye delay.
+	
+	başka sayaç varsa oku yoksa tcp connection close.
+	
+	
+	
